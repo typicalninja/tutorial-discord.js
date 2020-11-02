@@ -1,6 +1,7 @@
 const fs = require('fs');
 const Discord = require('discord.js');
 const  prefix = '!'
+const keepAlive = require('./server.js'); // this is for the express webserver 
 
 
 const client = new Discord.Client();
@@ -85,5 +86,6 @@ if(message.channel.guild && !message.guild.me.hasPermission(["SEND_MESSAGES"])) 
     message.channel.send(`ERROR >>: ${error}`);
   }
 });
+keepAlive(); //run the webserver
 
 client.login(process.env.TOKEN);
