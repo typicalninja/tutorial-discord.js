@@ -4,3 +4,8 @@ discord.js tutorials
 
 Hope you find my tutorials helpful
 
+you can subscribe to my channel here 
+https://www.youtube.com/channel/UCdOaWkLvMwc4DeVsCnWZQTA
+
+add my discord bot here : 
+https://www.axixbot.tk/
